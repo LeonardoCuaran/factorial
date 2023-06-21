@@ -5,7 +5,7 @@ function factorial (){
         c=c*i;     
     }
 
-    console.log(c);
+    
     resultado = document.getElementById("resultado");
     resultado.value = c;
     return c;
